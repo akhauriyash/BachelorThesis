@@ -1,0 +1,32 @@
+\BOOKMARK [0][-]{chapter*.3}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{Contents}{}% 2
+\BOOKMARK [0][-]{chapter*.4}{List of Algorithms}{}% 3
+\BOOKMARK [0][-]{chapter*.4}{List of Figures}{}% 4
+\BOOKMARK [0][-]{chapter*.4}{List of Tables}{}% 5
+\BOOKMARK [-1][-]{part.1}{Background}{}% 6
+\BOOKMARK [0][-]{chapter.1}{Introduction}{part.1}% 7
+\BOOKMARK [1][-]{section.1.1}{Field-Programmable Gated Arrays}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.2}{Deep Neural Networks}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Hardware-Software Codesign}{part.1}% 10
+\BOOKMARK [1][-]{section.2.1}{Fan-in, Neurons and LUTs.}{chapter.2}% 11
+\BOOKMARK [0][-]{chapter.3}{Mapping Neurons to Hardware}{part.1}% 12
+\BOOKMARK [1][-]{section.3.1}{Sparsity and Quantization}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.2}{Quantifying Hardware Costs}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.3}{Research Recess I \205 Sparsity}{chapter.3}% 15
+\BOOKMARK [-1][-]{part.2}{LogicNet: A Library for Mapping HBBs to NEQs}{}% 16
+\BOOKMARK [0][-]{chapter.4}{The LogicNet Design Flow and Library}{part.2}% 17
+\BOOKMARK [1][-]{section.4.1}{Quantizer}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.2}{SparseLinear}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.3}{DenseQuantLinear}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.4}{SparseConv}{chapter.4}% 21
+\BOOKMARK [0][-]{chapter.5}{Design Automation}{part.2}% 22
+\BOOKMARK [1][-]{section.5.1}{Truth Table Generation}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.2}{VERILOG Code Generation}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.3}{Logic Synthesis and Analytical LUT estimates}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.4}{Timing Analysis}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.5}{Research Recess II \205 Synthesis}{chapter.5}% 27
+\BOOKMARK [0][-]{chapter.6}{LogicNet4HEP}{part.2}% 28
+\BOOKMARK [0][-]{chapter.7}{MNIST}{part.2}% 29
+\BOOKMARK [-1][-]{part.3}{Concluding Remarks}{}% 30
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{part.3}% 31
+\BOOKMARK [0][-]{section*.49}{Bibliography}{part.3}% 32

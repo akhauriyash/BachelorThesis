@@ -1,0 +1,359 @@
+
+\documentclass{dissertation}
+
+\usepackage{amsmath,mathtools,empheq}
+\usepackage{amsthm}
+\usepackage{thmtools}
+\usepackage{thm-restate}
+\declaretheorem[%
+    name=Rationale,
+    refname={Rationale,Rationales},
+    Refname={Rationale,Rationales}
+]{rationale}
+\declaretheorem[%
+    name={Security Claim},
+    numbered={unless unique},
+]{secclaim}
+
+\usepackage{longtable}
+
+\usepackage{pdflscape}
+\usepackage{adjustbox}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+
+% \setcounter{tocdepth}{3}
+
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%Code listing style named "mystyle"
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\ttfamily\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+%"mystyle" code listing set
+\lstset{style=mystyle}
+
+
+\usepackage{wrapfig}
+
+% \usepackage{float}
+
+\usepackage{enumitem}
+
+\usepackage{tikz}
+%%% Public TikZ libraries
+
+\usetikzlibrary{calc}
+% https://tex.stackexchange.com/a/114770
+\usepackage{etoolbox}
+\robustify\setcounter
+\robustify\addtocounter
+\robustify\setlength
+\robustify\addtolength
+
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes}
+
+\usetikzlibrary{patterns}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{external}
+\tikzexternalize[prefix=tikzpictures/]
+\tikzexternaldisable
+
+%%% Custom TikZ addons
+\usetikzlibrary{crypto.symbols}
+\tikzset{shadows=no}        % Option: add shadows to XOR, ADD, etc.
+
+\usepackage{forest}
+\usepackage{pgfplots}
+\usetikzlibrary{crypto.symbols}
+\pgfplotsset{compat=newest}
+\usetikzlibrary{pgfplots.colormaps}
+\usetikzlibrary{pgfplots.groupplots}
+\tikzset{shadows=no}
+
+\pgfplotsset{%
+    colormap={WhiteRedBlack}{%
+        rgb255=(255,255,255)
+        rgb255=(255,205,0)
+        rgb255=(255,0,0)
+        rgb255=(128,0,0)
+        rgb255=(0,0,0)
+    },
+}
+
+\pgfplotsset{%
+    colormap={BlueWhiteRed}{%
+        rgb255=(0,0,128)
+        rgb255=(0,0,255)
+        rgb255=(255,255,255)
+        rgb255=(255,0,0)
+        rgb255=(128,0,0)
+    },
+}
+
+\definecolor{RoyalBlue}{cmyk}{1,0.5,0,0}
+\definecolor{Black}{cmyk}{0,0,0,0}
+\definecolor{alertred}{rgb}{0.80,0.12,0.12}
+\definecolor{linkgreen}{RGB}{0,166,0}
+
+% % % Name Commands and so % % %
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\Z}{\mathbb{Z}}
+
+\newcommand{\GL}[1]{\mathrm{GL}(#1, \F_2)}
+
+\newcommand{\AC}[1]{\ensuremath{\mathcal{A}_{#1}}}
+\newcommand{\DC}[1]{\ensuremath{\delta_{#1}}}
+\newcommand{\FC}[1]{\ensuremath{\widehat{#1}}}
+
+\newcommand{\LS}{\mathsf{LS}}
+
+\newcommand{\derive}[2]{\Delta_{#1}\parens{#2}}
+\renewcommand{\iprod}[2]{#1 \cdot #2}
+
+\newcommand{\aequiv}{\stackrel{\text{\tiny A}}{\sim}}
+\newcommand{\eaequiv}{\stackrel{\text{\tiny EA}}{\sim}}
+\newcommand{\cczequiv}{\stackrel{\text{\tiny CCZ}}{\sim}}
+\DeclareMathOperator*{\diffOp}{\rightrightarrows}
+\newcommand{\propDiff}[4]{#1 \diffOp^{#2}_{#3} #4}
+
+\DeclareMathOperator*{\linOp}{\rightarrow}
+\newcommand{\propLin}[4]{#1 \linOp^{#2}_{#3} #4}
+
+\DeclareMathOperator*{\dlOp}{\sqsupset\!\rightarrow}
+\newcommand{\propDL}[4]{#1 \dlOp^{#2}_{#3} #4}
+
+\DeclareMathOperator*{\isOp}{\mapsto}
+\newcommand{\propIS}[4]{#1 \isOp^{#2}_{#3} #4}
+
+\newcommand{\subspacetrail}[3]{#1 \stackrel{#2}{\rightrightarrows} #3}
+\newcommand{\longsubspacetrail}[3]{#1 \stackrel{#2}{\rightrightarrows} #3}
+\newcommand{\nsubspacetrail}[3]{#1 \stackrel{#2}{\not\rightrightarrows} #3}
+
+\newcommand{\coset}[2]{#1 \!\! + \!\! #2}
+\newcommand{\tower}[2]{\genfrac{}{}{0pt}{}{#1}{#2}}
+
+\DeclareMathOperator{\cor}{\mathbf{cor}}
+\DeclareMathOperator{\bias}{\varepsilon}
+\DeclareMathOperator{\BasisOp}{Basis}
+\newcommand{\Basis}[1]{\BasisOp\parens{#1}}
+\DeclareMathOperator{\ImOp}{Im}
+\renewcommand{\Im}[1]{\ImOp {#1}}
+\DeclareMathOperator{\KerOp}{Ker}
+\newcommand{\Ker}[1]{\KerOp {#1}}
+\DeclareMathOperator{\NullityOp}{Nullity}
+\newcommand{\Nullity}[1]{\NullityOp\parens{#1}}
+\DeclareMathOperator{\ord}{ord}
+\DeclareMathOperator{\Prob}{Pr}
+\DeclareMathOperator{\Quot}{Quot}
+\DeclareMathOperator{\RankOp}{Rank}
+\newcommand{\Rank}[1]{\RankOp\parens{#1}}
+\DeclareMathOperator{\SpanOp}{Span}
+\newcommand{\Span}[1]{\SpanOp\set{#1}}
+%\newcommand{\Span}[1]{\angles{#1}}
+\DeclareMathOperator{\suppOp}{Supp}
+\newcommand{\supp}[1]{\suppOp\parens{#1}}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\wt}{wt}
+
+\DeclareMathOperator{\binmatr}{BinMatr}
+\newcommand{\binarymatrix}[1]{\ensuremath\binmatr\parens{#1}}
+
+\DeclareMathOperator{\implop}{Impl}
+\newcommand{\impl}[1]{\ensuremath\implop\parens{#1}}
+ 
+\DeclareMathOperator{\uniformityOp}{\delta}
+\newcommand{\uniformity}[1]{\uniformityOp\parens{#1}}
+\DeclareMathOperator{\absoluteindicatorOp}{\mathcal{M}}
+\newcommand{\absoluteindicator}[1]{\absoluteindicatorOp\parens{#1}}
+\DeclareMathOperator{\linearityOp}{\mathcal{L}}
+\newcommand{\linearity}[1]{\linearityOp\parens{#1}}
+
+\DeclareMathOperator{\cauchy}{cauchy}
+\DeclareMathOperator{\circmatr}{circ}
+\DeclareMathOperator{\hadamard}{hadamard}
+\DeclareMathOperator{\subfield}{subfield}
+\DeclareMathOperator{\toep}{toep}
+\DeclareMathOperator{\vandermonde}{vandermonde}
+
+\newcommand{\negl}[1]{\mathrm{negl}\parens{#1}}
+\def\func/{\mathrm{Func}}
+\def\perm/{\mathrm{Perm}}
+\def\boolfunc/{\mathrm{BF}}
+
+% ---------------------------------------------------------------------
+% Bottop symbol
+% https://tex.stackexchange.com/questions/414825/is-there-a-latex-symbol-that-combines-top-and-bot
+% ---------------------------------------------------------------------
+\makeatletter
+\newcommand*{\bottop}{%
+  {\mathpalette\@bottop{}}%
+}
+\newcommand*{\@bottop}[2]{%
+  % #1: math style
+  % #2: unused
+  \rlap{$#1\bot\m@th$}% put \bot to the right without moving the current point
+  \top
+}
+\makeatother
+
+\graphicspath{{./figures/}{./tikzpictures/}}
+\pgfplotsset{%
+    table/search path={./figures/plots/},
+}
+
+\newrobustcmd*{\fullfullcite}{%
+    \AtNextCite{%
+        \AtEachCitekey{%
+            \defcounter{maxnames}{99}%
+            \DeclareNameAlias{labelname}{given-family}%
+        }%
+    }%
+    \fullcite
+}
+
+\usepackage{pdfpages}
+
+% set the Bison QED symbol
+\renewcommand{\qed}{%
+\leavevmode\unskip\penalty9999 \hbox{}\nobreak\hfill%
+\quad\hbox{\includegraphics[height=1em]{bison/bison-qed.jpg}}}
+
+\title{Exposing Hardware Building Blocks to Machine Learning Frameworks}
+\author{Yash Akhauri}
+\date{\today}
+
+\begin{document}
+
+\includepdf[pages=-, angle=90]{./figures/bison/FrontPage.pdf}
+\includepdf[pages=-, angle=90]{./figures/bison/Certificate.pdf}
+
+\frontmatter{}
+
+\input{frontbackmatter/titlepage}
+
+\input{frontbackmatter/abstract}
+% \blankpage{}
+% \clearpage{}
+% \blankpage{}
+% \input{frontbackmatter/summary}
+\clearpage{}
+
+\tableofcontents*\addcontentsline{toc}{chapter}{Contents}
+% \setcounter{tocdepth}{1}
+\listofalgorithms\addcontentsline{toc}{chapter}{List of Algorithms}
+% \clearpage{}
+\vspace{\baselineskip}
+
+\listoffigures*\addcontentsline{toc}{chapter}{List of Figures}
+\vspace{\baselineskip}
+% \clearpage{}
+
+\listoftables*\addcontentsline{toc}{chapter}{List of Tables}
+\clearpage{}
+
+%\input{frontbackmatter/acknowledgments}\addcontentsline{toc}{chapter}{Acknowledgments}
+\cleardoublepage{}
+%\itodo{Can we use \bison/'s argument (regarding differential cryptanalysis) for a maximal unbalanced Feistel network?}
+%\itodo{Can we improve \cref{st:lem:2} so that we do not have to compute the span of the union over all basis vectors?}
+
+% /*
+% Introduction
+% The need for accelerators
+%     CPUs, GPUs, ASICs, FPGAs.
+% Background
+%     FPGA and HW/SW Co-Design
+%     Mapping Neurons to Hardware
+%       Sparsity
+%           Expander, Iterative, Momentum
+%       Quantize
+%           Activation brevitas
+%           Non Linear
+% LogicNet: A Library for Mapping HBBs to NEQs
+%     Introduction
+%     Components
+%       Linear
+%       Convolutions
+%       TruthTableGen
+%       VerilogGen
+%       Synthesis
+% Testing LogicNet
+%     LogicNet4HEP
+%       Introduction
+%       Models
+%     MNIST 
+%       Models
+% Concluding Remarks
+%     Research Questions
+%     Conclusion
+% */
+
+
+\mainmatter{}
+\begin{fullwidth}
+\part{Background}
+\end{fullwidth}
+\cleardoublepage{}
+\input{mainmatter/introduction}
+\input{mainmatter/fpga-codesign}
+\input{mainmatter/mapping}
+\begin{fullwidth}
+\part{LogicNet: A Library for Mapping HBBs to NEQs}
+\end{fullwidth}
+\input{mainmatter/intro-fpganet}
+% \input{mainmatter/components-fpganet}
+\input{mainmatter/designautomate}
+\input{mainmatter/fpganet4hep}
+\input{mainmatter/mnist}
+\begin{fullwidth}
+\part{Concluding Remarks}
+\end{fullwidth}
+\input{mainmatter/conclusion}
+
+% \begin{fullwidth}
+% \part{Epilogue}
+% \end{fullwidth}
+
+% \input{frontbackmatter/conclusion}
+
+\begin{fullwidth}
+\printbibliography{}
+\end{fullwidth}
+
+\cleardoublepage{}
+
+% \chapter*{Oath}\addcontentsline{toc}{chapter}{Oath}
+% I assure on oath that I wrote the submitted thesis independently and without unauthorized foreign help, did not use other than the specified in his literature and that I have made all or almost adopted passages as well as used graphics, tables and evaluation programs identified.
+
+% In addition, I assure that the presented electronic complies with the written version of the thesis and that the thesis  in this or similar form has not yet been presented and evaluated as a bachelor thesis.
+
+% \vspace{1cm}
+% \noindent
+% \rule{45mm}{0.1pt} \hfill{} \rule{45mm}{0.1pt}\\
+% Date \hfill{} Signature
+
+% \cleardoublepage{}
+
+\end{document}

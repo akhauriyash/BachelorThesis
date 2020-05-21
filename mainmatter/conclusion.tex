@@ -1,0 +1,44 @@
+\chapter{Conclusion}\label{ch:conclusion}
+\openepigraph{The desire to create is one of the deepest yearnings of the human soul.}{Dieter F. Uchtdorf}
+
+The neurons in our brains do not \textit{seem} to follow any given structure, rather they can be condensed to specialized graphs which are a far-cry from densely connected topologies we commonly use. We attempt to train extremely sparse structures, that can map directly to hardware building blocks in our FPGA. 
+Much like we have taken jabs at trying to draw parallels between the neurons in our brains and the neurons in our machine learning framework, we take a jab at how to map neurons in these machine learning frameworks to hardware building blocks, we studied the interplay between quantization and sparsity. We developed a library to map hardware building blocks to neuron equivalents as well as used that library to synthesize neural networks. \\
+We begin by introducing basic concepts such as the rough architecture of an FPGA, and some of the basic layer types in a Neural Network. We also delve lightly into Quantized Neural Networks and Sparse Neural Networks. In Chapter 2, we hope to explain how neural networks are typically implemented on FPGAs. We use the HLS-RFNoC workflow as an implementation case study. We then delve into the Analytical LUT cost that we use as our pessimistic resource cost for the rest of the paper.\\
+Chapter 3 focuses on the exact process of mapping neurons to aforementioned 'hardware building blocks'. We explore different ways of sparsification of neural networks and delve into interesting research questions on implementing sparsity in neural networks. Here, we learn that A-Priori Random Fixed sparsity is an effective method for exploring topologies but we need more powerful methods such as Sparse Momentum Learning or Iterative Pruning to get the best accuracy. We also draw parallels between Sparsification and Neural Architecture Search, which is an interesting way to unify different tangents of research on discovering performant neural wiring.
+We then move on to actually introducing to the reader the LogicNet design flow and particulars of the library itself. We explain the reasoning behind certain design decisions. Design automation is also discussed to some level, but in Chapter 5 we primarily focus on the components that are needed for design automation. We familiarize the reader with the truth tables we generate from a specific topology and delve in detail into how we implement our VERILOG code generator. We describe the modules and sub-structures that exist in the VERILOG code. This is followed by a very interesting study on how the resource cost after synthesis is much lower than the analytical LUT cost model we had introduced previously. This opens up more costly design spaces we had not previously explored due to resource constraints. We also delve into how we can design heuristics for LUT Costs and Congestion Estimation and integrate that with the library in the future to discover topologies that push the gap between the analytical LUT estimate and the actual LUT cost further, and lends us with a less congested neural network. While we are unable to propose methods to integrate congestion estimation, we do give insight into how a future heuristic that aids LUT cost reduction could look like.\\
+Chapter 6 focuses heavily on implementing LogicNet in a real world scenario. We choose Jet Substructure Classification as our target problem, as they have data-rates in excess of hundreds of terabytes per second and require triggers that have very low target latency and use custom hardware like FPGAs or ASICs. We are able to discover several topologies that give very good performance with a very low analytical LUT cost. Further, we gain insight into the important of SoftMax in the Jet Substructure Classification problem, and do some topology exploration. We also compare the accuracy of models pruned by different methods.\\
+Chapter 7 introduces the well known data-set, MNIST. We provide the reader with insights into the behavior of LogicNet on this dataset for both MLPs and Convolutional Neural Networks. We study the interplay of Analytical LUT cost and accuracy, as well as the relation between accuracy and the bit-width. We study heterogeneous architectures with 'skip connections' for both MLPs and Convolution, and find some benefit to it. For MLPs, it is interesting to note that we gain benefits with skip connections without increase in hardware cost. We do not discuss the Place and Route effects of introducing skip connections in this thesis. \\
+We believe that there are an array of problems which could find great use for the LogicNet library, and this thesis hopes to be of use when making architectural decisions. We hope to further continue this work and learn more about how to discover sparse topologies, and drive down the resource cost of such mapping of neural networks to an FPGA fabric. 
+
+
+% /*
+% Introduction
+% The need for accelerators
+%     CPUs, GPUs, ASICs, FPGAs.
+% Background
+%     FPGA and HW/SW Co-Design
+%     Mapping Neurons to Hardware
+%       Sparsity
+%           Expander, Iterative, Momentum
+%       Quantize
+%           Activation brevitas
+%           Non Linear
+% LogicNet: A Library for Mapping HBBs to NEQs
+%     Introduction
+%     Components
+%       Linear
+%       Convolutions
+%     Design Automation
+%       TruthTableGen
+%       VerilogGen
+%       Synthesis
+% Testing LogicNet
+%     LogicNet4HEP
+%       Introduction
+%       Models
+%     MNIST 
+%       Models
+% Concluding Remarks
+%     Research Questions
+%     Conclusion
+% */

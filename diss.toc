@@ -1,0 +1,86 @@
+\changetocdepth {1}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{v}{chapter*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Contents}{vi}{chapter*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Algorithms}{vii}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{vii}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{viii}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\partnumberline {I}\MakeTextUppercase {Background}}{1}{part.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {1}\MakeTextLowercase {Introduction}}{3}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Field-Programmable Gated Arrays}{4}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Deep Neural Networks}{5}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Quantized Neural Networks}{5}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Sparse Neural Networks}{6}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {2}\MakeTextLowercase {Hardware-Software Codesign}}{7}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Fan-in, Neurons and LUTs.}{8}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {3}\MakeTextLowercase {Mapping Neurons to Hardware}}{9}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Sparsity and Quantization}{10}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Sparsity}{10}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Quantization}{12}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Quantifying Hardware Costs}{13}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Research Recess I -- Sparsity}{13}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}What are some methods to distribute non-zero weights?}{13}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Ensembling and the {Erd\H {o}s-R\'{e}nyi} Method}{13}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Is Sparsification Neural Architecture Search?}{14}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\partnumberline {II}\MakeTextUppercase {LogicNet: A Library for Mapping HBBs to NEQs}}{15}{part.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {4}\MakeTextLowercase {The LogicNet Design Flow and Library}}{17}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Quantizer}{18}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}SparseLinear}{18}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}DenseQuantLinear}{19}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}SparseConv}{19}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {5}\MakeTextLowercase {Design Automation}}{21}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Truth Table Generation}{21}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}VERILOG Code Generation}{23}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Logic Synthesis and Analytical LUT estimates}{25}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Resource cost with and without Registers in circuit}{25}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Timing Analysis}{26}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Research Recess II \IeC {\textendash } Synthesis}{27}{section.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.1}Can we design a heuristic that aids LUT cost reduction for a neuron?}{27}{subsection.5.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.2}Can we integrate congestion estimation in an FPGA with neural architecture search for non-layered topologies?}{27}{subsection.5.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {6}\MakeTextLowercase {LogicNet4HEP}}{29}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {7}\MakeTextLowercase {MNIST}}{35}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\partnumberline {III}\MakeTextUppercase {Concluding Remarks}}{39}{part.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {8}\MakeTextLowercase {Conclusion}}{41}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{43}{section*.49}

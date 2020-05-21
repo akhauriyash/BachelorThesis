@@ -1,0 +1,1335 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nyt/global/}
+  \entry{abdelsalam2018polybinn}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=AAM}{%
+         family={Abdelsalam},
+         familyi={A\bibinitperiod},
+         given={Ahmed\bibnamedelima M},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Elsheikh},
+         familyi={E\bibinitperiod},
+         given={Ahmed},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DJP}{%
+         family={David},
+         familyi={D\bibinitperiod},
+         given={Jean-Pierre},
+         giveni={J\bibinitperiod-P\bibinitperiod},
+      }}%
+      {{hash=LJP}{%
+         family={Langlois},
+         familyi={L\bibinitperiod},
+         given={JM\bibnamedelima Pierre},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{AAM+1}
+    \strng{fullhash}{AAMEADJPLJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Abd+18}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{2018 Conference on Design and Architectures for Signal
+  and Image Processing (DASIP)}
+    \field{pages}{19\bibrangedash 24}
+    \field{title}{POLYBiNN: a scalable and efficient combinatorial inference
+  engine for neural networks on FPGA}
+    \field{year}{2018}
+  \endentry
+
+  \entry{bellec2017deep}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=BG}{%
+         family={Bellec},
+         familyi={B\bibinitperiod},
+         given={Guillaume},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kappel},
+         familyi={K\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MW}{%
+         family={Maass},
+         familyi={M\bibinitperiod},
+         given={Wolfgang},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Legenstein},
+         familyi={L\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BG+1}
+    \strng{fullhash}{BGKDMWLR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bel+17}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{eprint}
+    \verb 1711.05136
+    \endverb
+    \field{title}{Deep Rewiring: Training very sparse deep networks}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.NE}
+    \field{year}{2017}
+  \endentry
+
+  \entry{courbariaux2016binarized}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CM}{%
+         family={Courbariaux},
+         familyi={C\bibinitperiod},
+         given={Matthieu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HI}{%
+         family={Hubara},
+         familyi={H\bibinitperiod},
+         given={Itay},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Soudry},
+         familyi={S\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=EYR}{%
+         family={El-Yaniv},
+         familyi={E\bibinitperiod-Y\bibinitperiod},
+         given={Ran},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Yoshua},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CM+1}
+    \strng{fullhash}{CMHISDEYRBY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Cou+16}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Binarized neural networks: Training deep neural networks with
+  weights and activations constrained to+ 1 or-1}
+    \field{journaltitle}{arXiv preprint arXiv:1602.02830}
+    \field{year}{2016}
+  \endentry
+
+  \entry{dettmers2019sparse}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=DT}{%
+         family={Dettmers},
+         familyi={D\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zettlemoyer},
+         familyi={Z\bibinitperiod},
+         given={Luke},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DTZL1}
+    \strng{fullhash}{DTZL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{DZ19}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{eprint}
+    \verb 1907.04840
+    \endverb
+    \field{title}{Sparse Networks from Scratch: Faster Training without Losing
+  Performance}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Duarte_2018}{article}{}
+    \name{author}{11}{}{%
+      {{hash=DJ}{%
+         family={Duarte},
+         familyi={D\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Jindariani},
+         familyi={J\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Kreinar},
+         familyi={K\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Kreis},
+         familyi={K\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Ngadiuba},
+         familyi={N\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pierini},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Rivera},
+         familyi={R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TN}{%
+         family={Tran},
+         familyi={T\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=ea}{%
+         prefix={et},
+         prefixi={e\bibinitperiod},
+         family={al.},
+         familyi={a\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{DJ+1}
+    \strng{fullhash}{DJHSHPJSKEKBNJPMRRTNae1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Dua+18}
+    \field{extraalpha}{1}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1088/1748-0221/13/07/p07027
+    \endverb
+    \field{issn}{1748-0221}
+    \field{number}{07}
+    \field{pages}{P07027–P07027}
+    \field{title}{Fast inference of deep neural networks in FPGAs for particle
+  physics}
+    \verb{url}
+    \verb http://dx.doi.org/10.1088/1748-0221/13/07/P07027
+    \endverb
+    \field{volume}{13}
+    \field{journaltitle}{Journal of Instrumentation}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{duarte2018fast}{article}{}
+    \true{moreauthor}
+    \name{author}{10}{}{%
+      {{hash=DJ}{%
+         family={Duarte},
+         familyi={D\bibinitperiod},
+         given={Javier},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Song},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Jindariani},
+         familyi={J\bibinitperiod},
+         given={Sergo},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Kreinar},
+         familyi={K\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Kreis},
+         familyi={K\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Ngadiuba},
+         familyi={N\bibinitperiod},
+         given={Jennifer},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pierini},
+         familyi={P\bibinitperiod},
+         given={Maurizio},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Rivera},
+         familyi={R\bibinitperiod},
+         given={Ryan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TN}{%
+         family={Tran},
+         familyi={T\bibinitperiod},
+         given={Nhan},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{DJ+2}
+    \strng{fullhash}{DJHSHPJSKEKBNJPMRRTN+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Dua+18}
+    \field{extraalpha}{2}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{07}
+    \field{pages}{P07027}
+    \field{title}{Fast inference of deep neural networks in FPGAs for particle
+  physics}
+    \field{volume}{13}
+    \field{journaltitle}{Journal of Instrumentation}
+    \field{year}{2018}
+  \endentry
+
+  \entry{evci2019rigging}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=EU}{%
+         family={Evci},
+         familyi={E\bibinitperiod},
+         given={Utku},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Gale},
+         familyi={G\bibinitperiod},
+         given={Trevor},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Menick},
+         familyi={M\bibinitperiod},
+         given={Jacob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CPS}{%
+         family={Castro},
+         familyi={C\bibinitperiod},
+         given={Pablo\bibnamedelima Samuel},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=EE}{%
+         family={Elsen},
+         familyi={E\bibinitperiod},
+         given={Erich},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EU+1}
+    \strng{fullhash}{EUGTMJCPSEE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Evc+19}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \verb{eprint}
+    \verb 1911.11134
+    \endverb
+    \field{title}{Rigging the Lottery: Making All Tickets Winners}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{year}{2019}
+  \endentry
+
+  \entry{ghasemzadeh2018rebnet}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=GM}{%
+         family={Ghasemzadeh},
+         familyi={G\bibinitperiod},
+         given={Mohammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Samragh},
+         familyi={S\bibinitperiod},
+         given={Mohammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KF}{%
+         family={Koushanfar},
+         familyi={K\bibinitperiod},
+         given={Farinaz},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{GM+1}
+    \strng{fullhash}{GMSMKF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Gha+18}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{booktitle}{2018 IEEE 26th Annual International Symposium on
+  Field-Programmable Custom Computing Machines (FCCM)}
+    \field{pages}{57\bibrangedash 64}
+    \field{title}{ReBNet: Residual binarized neural network}
+    \field{year}{2018}
+  \endentry
+
+  \entry{han2015deep}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HS}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Song},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Huizi},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DWJ}{%
+         family={Dally},
+         familyi={D\bibinitperiod},
+         given={William\bibnamedelima J},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HS+1}
+    \strng{fullhash}{HSMHDWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Han+15}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Deep compression: Compressing deep neural networks with
+  pruning, trained quantization and huffman coding}
+    \field{journaltitle}{arXiv preprint arXiv:1510.00149}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Charles2013}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=KE}{%
+         family={Kreinar},
+         familyi={K\bibinitperiod},
+         given={EJ.},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {GitHub}%
+    }
+    \strng{namehash}{KE1}
+    \strng{fullhash}{KE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Kre19}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{howpublished}{\url{https://github.com/Xilinx/RFNoC-HLS-NeuralNet}}
+    \field{title}{RFNoC HLS NeuralNet}
+    \field{journaltitle}{GitHub repository}
+    \field{year}{2019}
+  \endentry
+
+  \entry{liu2019sparse}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=LS}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Shiwei},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MDC}{%
+         family={Mocanu},
+         familyi={M\bibinitperiod},
+         given={Decebal\bibnamedelima Constantin},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MARR}{%
+         family={Matavalam},
+         familyi={M\bibinitperiod},
+         given={Amarsagar Reddy\bibnamedelima Ramapuram},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  R\bibinitperiod},
+      }}%
+      {{hash=PY}{%
+         family={Pei},
+         familyi={P\bibinitperiod},
+         given={Yulong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pechenizkiy},
+         familyi={P\bibinitperiod},
+         given={Mykola},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LS+1}
+    \strng{fullhash}{LSMDCMARRPYPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Liu+19}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{eprint}
+    \verb 1901.09181
+    \endverb
+    \field{title}{Sparse evolutionary Deep Learning with over one million
+  artificial neurons on commodity hardware}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.NE}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Mocanu_2018}{article}{}
+    \name{author}{6}{}{%
+      {{hash=MDC}{%
+         family={Mocanu},
+         familyi={M\bibinitperiod},
+         given={Decebal\bibnamedelima Constantin},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Mocanu},
+         familyi={M\bibinitperiod},
+         given={Elena},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Stone},
+         familyi={S\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=NPH}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Phuong\bibnamedelima H.},
+         giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gibescu},
+         familyi={G\bibinitperiod},
+         given={Madeleine},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Liotta},
+         familyi={L\bibinitperiod},
+         given={Antonio},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Springer Science}%
+      {Business Media LLC}%
+    }
+    \strng{namehash}{MDC+1}
+    \strng{fullhash}{MDCMESPNPHGMLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Moc+18}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1038/s41467-018-04316-3
+    \endverb
+    \field{issn}{2041-1723}
+    \field{number}{1}
+    \field{title}{Scalable training of artificial neural networks with adaptive
+  sparse connectivity inspired by network science}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/s41467-018-04316-3
+    \endverb
+    \field{volume}{9}
+    \field{journaltitle}{Nature Communications}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{murovivc2019massively}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MT}{%
+         family={Murovi{\v{c}}},
+         familyi={M\bibinitperiod},
+         given={Tadej},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Trost},
+         familyi={T\bibinitperiod},
+         given={Andrej},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elektrotehniski Vestnik}%
+    }
+    \strng{namehash}{MTTA1}
+    \strng{fullhash}{MTTA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{MT19}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{1/2}
+    \field{pages}{47\bibrangedash 53}
+    \field{title}{Massively Parallel Combinational Binary Neural Networks for
+  Edge Processing}
+    \field{volume}{86}
+    \field{journaltitle}{Elektrotehniski Vestnik}
+    \field{year}{2019}
+  \endentry
+
+  \entry{alessandro_pappalardo_2019_3525102}{software}{}
+    \name{author}{2}{}{%
+      {{hash=PA}{%
+         family={Pappalardo},
+         familyi={P\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=n}{%
+         family={nickfraser},
+         familyi={n\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Zenodo}%
+    }
+    \strng{namehash}{PAn1}
+    \strng{fullhash}{PAn1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Pn19}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.5281/zenodo.3525102
+    \endverb
+    \field{title}{Xilinx/brevitas: Pretrained 4b ProxylessNAS Mobile14 r0\\}
+    \verb{url}
+    \verb https://doi.org/10.5281/zenodo.3525102
+    \endverb
+    \field{version}{quant\_proxylessnas\_mobile14\_4b-r0}
+    \field{month}{11}
+    \field{year}{2019}
+  \endentry
+
+  \entry{prabhu2018deep}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=PA}{%
+         family={Prabhu},
+         familyi={P\bibinitperiod},
+         given={Ameya},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VG}{%
+         family={Varma},
+         familyi={V\bibinitperiod},
+         given={Girish},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=NA}{%
+         family={Namboodiri},
+         familyi={N\bibinitperiod},
+         given={Anoop},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PA+1}
+    \strng{fullhash}{PAVGNA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Pra+18}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{Proceedings of the European Conference on Computer Vision
+  (ECCV)}
+    \field{pages}{20\bibrangedash 35}
+    \field{title}{Deep expander networks: Efficient deep networks from graph
+  theory}
+    \field{year}{2018}
+  \endentry
+
+  \entry{DBLP:journals/corr/abs-1905-00416}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RRA}{%
+         family={Robinett},
+         familyi={R\bibinitperiod},
+         given={Ryan\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kepner},
+         familyi={K\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RRAKJ1}
+    \strng{fullhash}{RRAKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{RK19}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{eprint}
+    \verb 1905.00416
+    \endverb
+    \field{title}{RadiX-Net: Structured Sparse Matrices for Deep Neural
+  Networks}
+    \verb{url}
+    \verb http://arxiv.org/abs/1905.00416
+    \endverb
+    \field{volume}{abs/1905.00416}
+    \field{journaltitle}{CoRR}
+    \field{eprinttype}{arXiv}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Samajdar2019ScalingTC}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SA}{%
+         family={Samajdar},
+         familyi={S\bibinitperiod},
+         given={Ananda},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Garg},
+         familyi={G\bibinitperiod},
+         given={Tushar},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Krishna},
+         familyi={K\bibinitperiod},
+         given={Tushar},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kapre},
+         familyi={K\bibinitperiod},
+         given={Nachiket},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SA+1}
+    \strng{fullhash}{SAGTKTKN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sam+19}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{342\bibrangedash 349}
+    \field{title}{Scaling the Cascades: Interconnect-Aware FPGA Implementation
+  of Machine Learning Problems}
+    \field{journaltitle}{2019 29th International Conference on Field
+  Programmable Logic and Applications (FPL)}
+    \field{year}{2019}
+  \endentry
+
+  \entry{stanley2002evolving}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SKO}{%
+         family={Stanley},
+         familyi={S\bibinitperiod},
+         given={Kenneth\bibnamedelima O},
+         giveni={K\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Miikkulainen},
+         familyi={M\bibinitperiod},
+         given={Risto},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
+    \strng{namehash}{SKOMR1}
+    \strng{fullhash}{SKOMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{SM02}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{2}
+    \field{pages}{99\bibrangedash 127}
+    \field{title}{Evolving neural networks through augmenting topologies}
+    \field{volume}{10}
+    \field{journaltitle}{Evolutionary computation}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Swartz:1998:FRR:275107.275134}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=SJS}{%
+         family={Swartz},
+         familyi={S\bibinitperiod},
+         given={Jordan\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BV}{%
+         family={Betz},
+         familyi={B\bibinitperiod},
+         given={Vaughn},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rose},
+         familyi={R\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{SJS+1}
+    \strng{fullhash}{SJSBVRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Swa+98}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{Proceedings of the 1998 ACM/SIGDA Sixth International
+  Symposium on Field Programmable Gate Arrays}
+    \verb{doi}
+    \verb 10.1145/275107.275134
+    \endverb
+    \field{isbn}{0-89791-978-5}
+    \field{pages}{140\bibrangedash 149}
+    \field{series}{FPGA '98}
+    \field{title}{A Fast Routability-driven Router for FPGAs}
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/275107.275134
+    \endverb
+    \list{location}{1}{%
+      {Monterey, California, USA}%
+    }
+    \field{year}{1998}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{tarver2019design}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=TC}{%
+         family={Tarver},
+         familyi={T\bibinitperiod},
+         given={Chance},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BSA}{%
+         family={Balatsoukas-Stimming},
+         familyi={B\bibinitperiod-S\bibinitperiod},
+         given={Alexios},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CJR}{%
+         family={Cavallaro},
+         familyi={C\bibinitperiod},
+         given={Joseph\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TC+1}
+    \strng{fullhash}{TCBSACJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Tar+19}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{eprint}
+    \verb 1907.00766
+    \endverb
+    \field{title}{Design and Implementation of a Neural Network Based
+  Predistorter for Enhanced Mobile Broadband}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{eess.SP}
+    \field{year}{2019}
+  \endentry
+
+  \entry{6172642}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TJ}{%
+         family={{Teich}},
+         familyi={T\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{electronic design automation;embedded systems;hardware-software
+  codesign;virtual prototyping;hardware-software codesign;concurrent
+  design;hardware components;software components;complex electronic
+  systems;design constraints;time-to-market frame;Hardware design
+  languages;Software development;Consumer electronics;System-on-a-chip;Computer
+  architecture;Complexity
+  theory;Simulation;Cosimulation;cosynthesis;coverification;design space
+  exploration;electronic system level (ESL);hardware/software codesign;virtual
+  prototyping}
+    \strng{namehash}{TJ1}
+    \strng{fullhash}{TJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Tei}12}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.1109/JPROC.2011.2182009
+    \endverb
+    \field{number}{Special Centennial Issue}
+    \field{pages}{1411\bibrangedash 1430}
+    \field{title}{Hardware/Software Codesign: The Past, the Present, and
+  Predicting the Future}
+    \field{volume}{100}
+    \field{journaltitle}{Proceedings of the IEEE}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{nhan_tran_2019_3359214}{software}{}
+    \name{author}{9}{}{%
+      {{hash=TN}{%
+         family={Tran},
+         familyi={T\bibinitperiod},
+         given={Nhan},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Kreis},
+         familyi={K\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Duarte},
+         familyi={D\bibinitperiod},
+         given={Javier},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=v}{%
+         family={vloncar},
+         familyi={v\bibinitperiod},
+      }}%
+      {{hash=j}{%
+         family={jngadiub},
+         familyi={j\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Kreinar},
+         familyi={K\bibinitperiod},
+         given={EJ},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={thesps},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=WZ}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Zhenbin},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=d}{%
+         family={drankincms},
+         familyi={d\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Zenodo}%
+    }
+    \strng{namehash}{TN+1}
+    \strng{fullhash}{TNKBDJvjKEtWZd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Tra+19}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \verb{doi}
+    \verb 10.5281/zenodo.3359214
+    \endverb
+    \field{title}{hls-fpga-machine-learning/hls4ml: v0.1.5}
+    \verb{url}
+    \verb https://doi.org/10.5281/zenodo.3359214
+    \endverb
+    \field{version}{v0.1.5}
+    \field{month}{08}
+    \field{year}{2019}
+  \endentry
+
+  \entry{umuroglu2018accelerating}{article}{}
+    \name{author}{1}{}{%
+      {{hash=UY}{%
+         family={Umuroglu},
+         familyi={U\bibinitperiod},
+         given={Yaman},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {NTNU}%
+    }
+    \strng{namehash}{UY1}
+    \strng{fullhash}{UY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Umu18}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{title}{Accelerating Sparse Linear Algebra and Deep Neural Networks
+  on Reconfigurable Platforms}
+    \field{year}{2018}
+  \endentry
+
+  \entry{umuroglu2020logicnets_fccm}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=UY}{%
+         family={Umuroglu},
+         familyi={U\bibinitperiod},
+         given={Yaman},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=AY}{%
+         family={Akhauri},
+         familyi={A\bibinitperiod},
+         given={Yash},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=FNJ}{%
+         family={Fraser},
+         familyi={F\bibinitperiod},
+         given={Nicholas\bibnamedelima J.},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Blott},
+         familyi={B\bibinitperiod},
+         given={Michaela},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{UY+1}
+    \strng{fullhash}{UYAYFNJBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Umu+20}
+    \field{extraalpha}{1}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{title}{High-Throughput {DNN} Inference with {LogicNets}}
+    \field{year}{2020}
+  \endentry
+
+  \entry{umuroglu2020logicnets}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=UY}{%
+         family={Umuroglu},
+         familyi={U\bibinitperiod},
+         given={Yaman},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=AY}{%
+         family={Akhauri},
+         familyi={A\bibinitperiod},
+         given={Yash},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=FNJ}{%
+         family={Fraser},
+         familyi={F\bibinitperiod},
+         given={Nicholas\bibnamedelima J.},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Blott},
+         familyi={B\bibinitperiod},
+         given={Michaela},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UY+1}
+    \strng{fullhash}{UYAYFNJBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Umu+20}
+    \field{extraalpha}{2}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \verb{eprint}
+    \verb 2004.03021
+    \endverb
+    \field{title}{LogicNets: Co-Designed Neural Networks and Circuits for
+  Extreme-Throughput Applications}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{eess.SP}
+    \field{year}{2020}
+  \endentry
+
+  \entry{wang2019lutnet}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=WE}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Erwei},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DJJ}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={James\bibnamedelima J},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CPY}{%
+         family={Cheung},
+         familyi={C\bibinitperiod},
+         given={Peter\bibnamedelima YK},
+         giveni={P\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=CGA}{%
+         family={Constantinides},
+         familyi={C\bibinitperiod},
+         given={George\bibnamedelima A},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{WE+1}
+    \strng{fullhash}{WEDJJCPYCGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wan+19}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{booktitle}{2019 IEEE 27th Annual International Symposium on
+  Field-Programmable Custom Computing Machines (FCCM)}
+    \field{pages}{26\bibrangedash 34}
+    \field{title}{LUTNet: Rethinking Inference in FPGA Soft Logic}
+    \field{year}{2019}
+  \endentry
+
+  \entry{DBLP:journals/corr/abs-1906-00586}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WM}{%
+         family={Wortsman},
+         familyi={W\bibinitperiod},
+         given={Mitchell},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Farhadi},
+         familyi={F\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rastegari},
+         familyi={R\bibinitperiod},
+         given={Mohammad},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WM+1}
+    \strng{fullhash}{WMFARM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wor+19}
+    \field{extraalpha}{1}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{eprint}
+    \verb 1906.00586
+    \endverb
+    \field{title}{Discovering Neural Wirings}
+    \verb{url}
+    \verb http://arxiv.org/abs/1906.00586
+    \endverb
+    \field{volume}{abs/1906.00586}
+    \field{journaltitle}{CoRR}
+    \field{eprinttype}{arXiv}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Wortsman2019DiscoveringNW}{article}{}
+    \name{author}{3}{}{%
+      {{hash=WM}{%
+         family={Wortsman},
+         familyi={W\bibinitperiod},
+         given={Mitchell},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Farhadi},
+         familyi={F\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rastegari},
+         familyi={R\bibinitperiod},
+         given={Mohammad},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WM+1}
+    \strng{fullhash}{WMFARM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wor+19}
+    \field{extraalpha}{2}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Discovering Neural Wirings}
+    \field{volume}{abs/1906.00586}
+    \field{journaltitle}{ArXiv}
+    \field{year}{2019}
+  \endentry
+
+  \entry{umuroglu+:FPGA2017finn}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=Y}{%
+         family={{Y. Umuroglu et al.}},
+         familyi={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{Y1}
+    \strng{fullhash}{Y1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{{Y. }17}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \verb{doi}
+    \verb 10.1145/3020078.3021744
+    \endverb
+    \field{isbn}{978-1-4503-4354-1}
+    \field{title}{{FINN}: A Framework for Fast, Scalable Binarized Neural
+  Network Inference}
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/3020078.3021744
+    \endverb
+    \field{year}{2017}
+  \endentry
+
+  \entry{Yeager2007CongestionEA}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=YD}{%
+         family={Yeager},
+         familyi={Y\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Chiu},
+         familyi={C\bibinitperiod},
+         given={Darius},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lemieux},
+         familyi={L\bibinitperiod},
+         given={Guy},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YD+1}
+    \strng{fullhash}{YDCDLG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Yea+07}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{booktitle}{SLIP}
+    \field{title}{Congestion estimation and localization in FPGAS: a visual
+  tool for interconnect prediction}
+    \field{year}{2007}
+  \endentry
+\endsortlist
+\endinput

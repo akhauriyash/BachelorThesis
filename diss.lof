@@ -1,0 +1,61 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Example UltraScale+ layout\relax }}{3}{figure.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Illustration of a neuron.\relax }}{4}{figure.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Illustrating Convolution.\relax }}{4}{figure.1.3}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapping a 7:1 Look-up Table to 6:1 LUTs.\relax }}{8}{figure.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Mapping a 8:1 Look-up Table to 6:1 LUTs.\relax }}{8}{figure.2.2}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sparsification per neuron.\relax }}{10}{figure.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Training Pipeline.\relax }}{10}{figure.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces This figure demonstrates the per neuron connectivity for a 3-Layer Neural Network.\relax }}{11}{figure.caption.11}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The Design Flow for LogicNet\relax }}{17}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces QuantReLU and QuantHardTanh (1 bit) Respectively. Scaling Factors not depicted.\relax }}{18}{figure.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Depthwise Separable Convolutions in LogicNet.\relax }}{20}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces VERILOG Code Generation Sub-Modules.\relax }}{22}{figure.5.1}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The LHC big data problem.\relax }}{29}{figure.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Dimensions of the NAS method.\relax }}{30}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Discriminating between highly energetic (boosted) \textbf {\textit {q, g, W, Z, t}} initiated jets. Figure adapted from User: FPGA4HEP on GitHub.\relax }}{30}{figure.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Our PFGA4HEP Neural Network Architecture.\relax }}{31}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Performance of the Deep Neural Network Classifier. The Left figure shows the signal efficiency versus the mis-identification rate for q, W, Z, t, g jet identification. The mis-identification rate is based on an equal admixture of the other non-signal jet types. On the right we show the Normalized Confusion Matrix for the classifier.\relax }}{31}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces We train a model on the FPGA4HEP dataset and observe the classifiers Receiver Operating Characteristics with respect to the SoftMax Layer.\relax }}{32}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Increase in Accuracy with increase in LUT cost.\relax }}{33}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Increase in Accuracy with increase in Bit-Width.\relax }}{33}{figure.caption.30}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Analytical LUT cost vs. Accuracy for a 3 Layer MLP on the MNIST Data-Set.\relax }}{36}{figure.caption.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Accuracy vs. Bit-Width for a 3 Layer MLP on the MNIST Data-Set.\relax }}{36}{figure.caption.36}
+\defcounter {refsection}{0}\relax 
+\addvspace {10pt}
